@@ -1,0 +1,42 @@
+.sidebar{
+position:sticky;
+  top:0;
+  left:0;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: start;
+  min-height:80vh;
+  gap:2rem;
+  padding-top: 2rem;
+}
+.headerLogo{
+    margin-bottom: 3rem;
+    font-size: 2.4rem;
+    color:greenyellow;
+    cursor: pointer;
+}
+
+.logoBox{
+    width:45px;
+    height:45px;
+    border-radius: 50%;
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    cursor: pointer;
+
+}
+.logoBox:hover{
+    background-color: #E4F7CE;
+
+}
+.logoBox.active{
+    background-color: #E4F7CE;
+}
+
+.footerLogo{
+    margin-top: 3rem;
+    cursor: pointer;
+}

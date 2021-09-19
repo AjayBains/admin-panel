@@ -1,0 +1,43 @@
+.valetTable {
+  width: 100%;
+  margin-top: 4rem;
+  /* border-collapse: collapse;
+   border-spacing:2rem; */
+  border-collapse: separate;
+  border-spacing: 0 15px;
+}
+.valetTableHead {
+  color: #c0bebe;
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+tr {
+  background-color: #f8faf5;
+}
+
+td {
+  padding: 1rem 0;
+
+  color: grey;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.valetName {
+  color: #6ca501;
+}
+
+.valetTableButton {
+  background-color: #6ca501;
+  padding: 0.3rem 1.5rem;
+  border-radius: 11px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+.viewMore,
+.viewAll {
+  text-decoration: underline;
+  cursor: pointer;
+}

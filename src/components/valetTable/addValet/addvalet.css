@@ -1,0 +1,84 @@
+.addValet {
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 20000;
+  width: 90%;
+  height: 90%;
+  box-shadow: 1px 1px 9px 124px rgba(0, 0, 0, 0.39);
+  -webkit-box-shadow: 1px 1px 9px 124px rgba(0, 0, 0, 0.39);
+  -moz-box-shadow: 1px 1px 9px 124px rgba(0, 0, 0, 0.39);
+}
+.addValet-wrapper {
+  padding: 1rem 2rem;
+}
+.addValetHeader {
+  margin-top: 3rem;
+
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+.addValetHeading {
+  color: rgb(83, 83, 83);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.closeValet {
+  cursor: pointer;
+}
+.closeIcon {
+  font-size: 0.9rem;
+  color: gray;
+}
+/****Valet info flex section*********/
+.valetInfos {
+  margin-top: 3rem;
+  display: flex;
+  gap: 10rem;
+}
+.titleAdd {
+  margin-bottom: 1.2rem;
+  color: rgb(82, 81, 81);
+}
+.valetDetailsInput {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.input {
+  border: 1px solid lightgray;
+  padding: 0.3rem 0.4rem;
+  border-radius: 5px;
+}
+
+.input-pincode {
+  width: 75%;
+}
+.addPincode {
+  margin-top: 0.5rem;
+  color: #6ca501;
+  font-size: 0.9rem;
+  text-decoration: underline;
+  text-decoration-color: #6ca501;
+  cursor: pointer;
+}
+/**************Footer************/
+.addValetFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6rem;
+}
+
+.addValetFooterButton {
+  padding: 0.5rem 2rem;
+  background-color: #6ca501;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

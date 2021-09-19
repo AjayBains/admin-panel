@@ -1,0 +1,57 @@
+.valet{}
+
+.valetWrapper{
+    padding: 1.2rem;
+
+}
+
+.valetHeader{
+    display:flex;
+    justify-content: space-between;
+}
+
+.valetHeaderLeft{
+    flex:1;
+    display:flex;
+    gap:2rem;
+    align-items: center;
+
+}
+.valetHeaderLeft h3{
+    font-size: 1.3rem;
+}
+
+.valetHeaderLeft button{
+    display:flex;
+    align-items: center;
+    background-color: #6CA501;
+    padding: 0.3rem 1.5rem;
+    border-radius: 11px;
+    border:none;
+    color:#fff;
+    cursor:pointer;
+}
+
+.valetHeaderLeft button .icon{
+    font-size: 0.7rem;
+    margin-right: 3px;
+}
+
+.valetHeaderRight{
+    /* flex:1; */
+    display:flex;    
+    justify-content:end;
+    gap:3.5rem;
+    padding-right: 9px;
+
+}
+
+p.itemTitle{
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+p.itemDetail{
+    font-size: 0.8rem;
+    font-weight: 600;
+    color:#6CA501;
+}
